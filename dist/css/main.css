@@ -1,0 +1,36 @@
+.gridElement {
+  background: whitesmoke;
+  width: 470px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.gridElement h3 {
+  font-weight: bold;
+  margin-top: 9px;
+  text-align: center;
+}
+
+.gridElement:hover {
+  width: 482px;
+  height: 572px;
+  -webkit-box-shadow: 2px 2px 90px black;
+          box-shadow: 2px 2px 90px black;
+}
+
+.gridElement:hover img {
+  width: 459px;
+}
+
+.gridLayout {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 1em;
+}
+
+.gridLayout .gridElement img {
+  width: 100%;
+}
