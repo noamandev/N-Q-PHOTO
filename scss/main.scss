@@ -1,4 +1,4 @@
-
+// grid layout
 .gridElement {
     background: whitesmoke;
     width: 470px;
@@ -13,6 +13,7 @@
     
 }
 
+// hover effects
 .gridElement:hover {
   width: 482px;
   height: 572px;
@@ -24,6 +25,7 @@
 }
 
 
+// making it responsive
 .gridLayout {
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(25rem, 1fr));
