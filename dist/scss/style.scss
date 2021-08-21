@@ -29,38 +29,36 @@ header {
     margin-top: 50px;
     border: 3px solid black;
     box-shadow: 6px 6px 90px black;
+
+        
+    button {
+        padding: 10px;
+        color: white;
+        border-radius: 50px;
+        font-weight: var(--dark-bold-font);
+        background-color: black;
+
+        button:hover {
+            font-size: 20px;
+            box-shadow: 2px 2px 10px black;
+        }
+    }
 }
 
-header button {
-    padding: 10px;
-    color: white;
-    border-radius: 50px;
-    font-weight: var(--dark-bold-font);
-    background-color: black;
-}
 
 /* adding hover affects */
 
-header button:hover {
-  font-size: 20px;
-  box-shadow: 2px 2px 10px black;
-}
 
 /* text styling */
 
 .gridLayout p::first-line {
     text-decoration: overline;
-}
-
-.gridLayout p {
-    color: red;
+    p {
+        color: red;
+    }
 }
 
 /* footer styling */
-.footer-content {
-    margin: 0;
-    font-weight: var(--dark-bold-font);
-}
 
 .credit,
 .creator {
@@ -79,6 +77,3 @@ img {
     width: 400px;
     height: 400px;
 }
-
-
-
